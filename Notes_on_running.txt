@@ -1,0 +1,5 @@
+To activate the virtual environment, run ./.venv/bin/activate
+
+
+To remove all the spaces in the csv file:
+$ sed 's/ //g' census.csv > census_no_spaces.csv
